@@ -23,10 +23,10 @@ export const usersModule = {
       const options = {};
       let query = "";
 
-      state.page ? (options.page = state.page) : "";
-      state.per_page ? (options.per_page = state.per_page) : "";
-      state.total ? (options.total = state.total) : "";
-      state.total_pages ? (options.total_pages = state.total_pages) : "";
+      if (state.page) options.page = state.page
+      if (state.per_page) options.per_page = state.per_page
+      if (state.total) options.total = state.total
+      if (state.total_pages) options.total_pages = state.total_pages
 
       if (Object.keys(options).length) {
         query = Object.keys(options)

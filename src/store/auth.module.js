@@ -22,7 +22,6 @@ export const authModule = {
             commit("setData", { loginToken: r.data.token });
           }
         })
-        // .catch((e) => console.log(e));
     },
   },
 

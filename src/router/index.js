@@ -60,7 +60,7 @@ router.beforeEach((to, from, next) => {
   const context = {
     to,
     from,
-    next,
+    next, 
     store,
   };
 

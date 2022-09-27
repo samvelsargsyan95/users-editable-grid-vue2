@@ -84,13 +84,13 @@ export default {
 
     onShowModal() {
       if (this.editData) {
-        this.editData.userId !== undefined
-          ? (this.userId = this.editData.userId)
-          : "";
-
-        this.editData.data !== undefined
-          ? (this.form = { ...this.editData.data })
-          : "";
+        if (this.editData.userId !== undefined) {
+          this.userId = this.editData.userId
+        }
+   
+        if (this.editData.data !== undefined) {
+          this.form = { ...this.editData.data }
+        }        
       }
     },
 
