@@ -50,16 +50,14 @@ Need validation for inputs.
 
 
 ### API endpoints
-**login** - */login* (post)
-**users list** - */users* (get)
-**single user** - */users/{id}* (get)
-**create user** - */users* (post)
-**update user** - */users/{id}* (put/patch)
+**login** - */login* (post) <br />
+**users list** - */users* (get) <br />
+**single user** - */users/{id}* (get) <br />
+**create user** - */users* (post) <br />
+**update user** - */users/{id}* (put/patch) <br />
 **delete user** - */users/{id}* (delete)
 
 
 ### Registred Accout
-**email** - *eve.holt@reqres.in*
+**email** - *eve.holt@reqres.in* <br />
 **password** - *cityslicka*
-
-# users-editable-grid-vue2
